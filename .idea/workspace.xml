@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8217a59d-c9f4-42d2-871a-e62b22699e6b" name="Default Changelist" comment="" />
+    <list default="true" id="8217a59d-c9f4-42d2-871a-e62b22699e6b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/consumer/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/consumer/UsersConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/properties/AppProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/properties/AppProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/streams/MaxAgeFilterStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/streams/MaxAgeFilterStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/streams/MinAgeFilterStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/consumer/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/properties/AppProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/properties/AppProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/streams/MaxAgeFilterStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/streams/MaxAgeFilterStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/streams/MinAgeFilterStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/streams/MinAgeFilterStream.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +30,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -30,8 +44,18 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1W9WLDgXZooSblbxPziGS6GbibR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.diegogv95.kafka.consumer" />
+      <recent name="com.diegogv95.kafka.streams" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -45,20 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinAgeFilterStream">
-    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.diegogv95.kafka.consumer.Consumer" />
-      <module name="Kafka Demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.diegogv95.kafka.consumer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.UsersLT50Consumer">
     <configuration name="MaxAgeFilterStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.diegogv95.kafka.streams.MaxAgeFilterStream" />
       <module name="Kafka Demo" />
@@ -85,11 +96,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UsersConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.diegogv95.kafka.consumer.UsersConsumer" />
+      <module name="Kafka Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.diegogv95.kafka.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsersGT50Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.diegogv95.kafka.consumer.UsersGT50Consumer" />
+      <module name="Kafka Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.diegogv95.kafka.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsersLT50Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.diegogv95.kafka.consumer.UsersLT50Consumer" />
+      <module name="Kafka Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.diegogv95.kafka.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UsersLT50Consumer" />
         <item itemvalue="Application.MinAgeFilterStream" />
         <item itemvalue="Application.MaxAgeFilterStream" />
-        <item itemvalue="Application.KafkaConsumer" />
+        <item itemvalue="Application.UsersGT50Consumer" />
+        <item itemvalue="Application.UsersConsumer" />
       </list>
     </recent_temporary>
   </component>
@@ -105,5 +157,16 @@
       <updated>1578562232561</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

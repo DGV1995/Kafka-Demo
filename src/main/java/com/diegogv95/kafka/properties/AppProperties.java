@@ -11,11 +11,13 @@ public interface AppProperties {
     final String VALUE_DESERIALIZER = StringDeserializer.class.getName();
     final String OFFSET_RESET = "earliest";
     final String APP_ID = "app-kafka";
-    final String AGE_GREATHER_THAN_50_TOPIC = "user-gt-50";
-    final String AGE_LESS_THAN_50_TOPIC = "user-gt-50";
+    final String AGE_GREATHER_THAN_50_TOPIC = "users-gt-50";
+    final String AGE_LESS_THAN_50_TOPIC = "users-lt-50";
 
     // Mongo settings
     final String MONGO_URI = "mongodb://localhost:27017";
     final String MONGO_DB = "data";
     final String MONGO_ALL_USERS_COLLECTION = "users";
+    final String MONGO_GT50_USERS_COLLECTION = "users-gt50";
+    final String MONGO_LT50_USERS_COLLECTION = "users-lt50";
 }

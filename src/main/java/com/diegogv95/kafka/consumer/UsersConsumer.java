@@ -15,15 +15,11 @@ import java.util.Arrays;
 import java.util.Properties;
 
 @NoArgsConstructor
-public class Consumer {
-    Logger logger = LoggerFactory.getLogger(Consumer.class.getName());
-
-    // Mongo settings
-    final String database = "data";
-    final String collection = "users";
+public class UsersConsumer {
+    Logger logger = LoggerFactory.getLogger(UsersConsumer.class.getName());
 
     public static void main(String[] args) {
-        new Consumer().run();
+        new UsersConsumer().run();
     }
 
     public void run() {

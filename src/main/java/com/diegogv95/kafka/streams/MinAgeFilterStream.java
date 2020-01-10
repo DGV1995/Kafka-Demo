@@ -12,14 +12,11 @@ import org.apache.kafka.streams.StreamsConfig;
 import org.apache.kafka.streams.Topology;
 import org.apache.kafka.streams.kstream.KStream;
 import org.apache.kafka.streams.kstream.Produced;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import java.util.Properties;
 
 @NoArgsConstructor
 public class MinAgeFilterStream {
-    Logger logger = LoggerFactory.getLogger(MinAgeFilterStream.class.getName());
 
     public static void main(String args[]) {
         new MinAgeFilterStream().run();
@@ -39,8 +36,8 @@ public class MinAgeFilterStream {
 
     public Properties createProperties() {
         Properties props = new Properties();
-        props.put(StreamsConfig.APPLICATION_ID_CONFIG, AppProperties.APP_ID);
         props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, AppProperties.BOOTSTRAP_SERVERS);
+        props.put(StreamsConfig.APPLICATION_ID_CONFIG, AppProperties.APP_ID);
         props.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, Serdes.String().getClass());
         props.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, Serdes.String().getClass());
         props.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, AppProperties.OFFSET_RESET);
@@ -54,11 +51,10 @@ public class MinAgeFilterStream {
 
         KStream<String, String> filteredUsers = inputStream.filter((key, value) -> {
             User user = gson.fromJson(value, User.class);
-            logger.info(user.toString());
             return user.getAge() < 50;
         });
 
-        filteredUsers.to(AppProperties.AGE_LESS_THAN_50_TOPIC);
+        filteredUsers.to(AppProperties.AGE_LESS_THAN_50_TOPIC, Produced.with(Serdes.String(), Serdes.String()));
         return builder.build();
     }
 }
