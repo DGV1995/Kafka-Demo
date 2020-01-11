@@ -1,6 +1,7 @@
 package com.diegogv95.kafka.consumer;
 
 import com.diegogv95.kafka.properties.AppProperties;
+import com.google.gson.Gson;
 import com.mongodb.*;
 import lombok.NoArgsConstructor;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
@@ -26,6 +27,8 @@ public class UsersConsumer {
         // Create the consumer
         KafkaConsumer<String, String> consumer = createConsumer();
 
+        Gson gson = new Gson();
+
         while(true) {
             // Get the topic records
             ConsumerRecords<String, String> records = consumer.poll(Duration.ofMillis(100));
@@ -34,7 +37,6 @@ public class UsersConsumer {
                 MongoClient mongo = new MongoClient(new MongoClientURI(AppProperties.MONGO_URI));
                 DB db = mongo.getDB(AppProperties.MONGO_DB);
                 DBCollection col = db.getCollection(AppProperties.MONGO_ALL_USERS_COLLECTION);
-
                 col.insert(BasicDBObject.parse(record.value()));
                 logger.info("User saved into MongoDB database: " + record.value());
             }

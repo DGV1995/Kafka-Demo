@@ -37,7 +37,7 @@ public class MaxAgeFilterStream {
     public Properties createProperties() {
         Properties props = new Properties();
         props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, AppProperties.BOOTSTRAP_SERVERS);
-        props.put(StreamsConfig.APPLICATION_ID_CONFIG, AppProperties.APP_ID);
+        props.put(StreamsConfig.APPLICATION_ID_CONFIG, AppProperties.APP_ID_GT50);
         props.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, Serdes.String().getClass());
         props.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, Serdes.String().getClass());
         props.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, AppProperties.OFFSET_RESET);

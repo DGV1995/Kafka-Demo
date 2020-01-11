@@ -2,18 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8217a59d-c9f4-42d2-871a-e62b22699e6b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/consumer/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/consumer/UsersConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/consumer/UsersConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/consumer/UsersConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/properties/AppProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/properties/AppProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/streams/MaxAgeFilterStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/streams/MaxAgeFilterStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/streams/MinAgeFilterStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/consumer/Consumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/properties/AppProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/properties/AppProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/streams/MinAgeFilterStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/diegogv95/kafka/streams/MinAgeFilterStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Kafka Demo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/consumer/UsersConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/consumer/UsersConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/entity/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/streams/MaxAgeFilterStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/streams/MaxAgeFilterStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/streams/MinAgeFilterStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/diegogv95/kafka/streams/MinAgeFilterStream.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -47,8 +50,14 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
@@ -57,22 +66,10 @@
       <recent name="com.diegogv95.kafka.streams" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Application.UsersLT50Consumer">
     <configuration name="MaxAgeFilterStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.diegogv95.kafka.streams.MaxAgeFilterStream" />
-      <module name="Kafka Demo" />
+      <module name="Kafka-Demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.diegogv95.kafka.streams.*" />
@@ -85,7 +82,7 @@
     </configuration>
     <configuration name="MinAgeFilterStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.diegogv95.kafka.streams.MinAgeFilterStream" />
-      <module name="Kafka Demo" />
+      <module name="Kafka-Demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.diegogv95.kafka.streams.*" />
@@ -98,7 +95,7 @@
     </configuration>
     <configuration name="UsersConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.diegogv95.kafka.consumer.UsersConsumer" />
-      <module name="Kafka Demo" />
+      <module name="Kafka-Demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.diegogv95.kafka.consumer.*" />
@@ -111,7 +108,7 @@
     </configuration>
     <configuration name="UsersGT50Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.diegogv95.kafka.consumer.UsersGT50Consumer" />
-      <module name="Kafka Demo" />
+      <module name="Kafka-Demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.diegogv95.kafka.consumer.*" />
@@ -124,7 +121,7 @@
     </configuration>
     <configuration name="UsersLT50Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.diegogv95.kafka.consumer.UsersLT50Consumer" />
-      <module name="Kafka Demo" />
+      <module name="Kafka-Demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.diegogv95.kafka.consumer.*" />
@@ -138,12 +135,24 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.UsersLT50Consumer" />
-        <item itemvalue="Application.MinAgeFilterStream" />
-        <item itemvalue="Application.MaxAgeFilterStream" />
-        <item itemvalue="Application.UsersGT50Consumer" />
         <item itemvalue="Application.UsersConsumer" />
+        <item itemvalue="Application.MinAgeFilterStream" />
+        <item itemvalue="Application.UsersGT50Consumer" />
+        <item itemvalue="Application.MaxAgeFilterStream" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -163,10 +172,58 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="653" y="210" width="671" height="685" key="#MaxAgeFilterStream" timestamp="1578759530163">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="653" y="210" width="671" height="685" key="#MaxAgeFilterStream/67.27.1853.1053@67.27.1853.1053" timestamp="1578759530163" />
+    <state x="653" y="210" width="671" height="685" key="#MinAgeFilterStream" timestamp="1578759433408">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="653" y="210" width="671" height="685" key="#MinAgeFilterStream/67.27.1853.1053@67.27.1853.1053" timestamp="1578759433408" />
+    <state x="653" y="210" width="671" height="685" key="#UsersConsumer" timestamp="1578758883401">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="653" y="210" width="671" height="685" key="#UsersConsumer/67.27.1853.1053@67.27.1853.1053" timestamp="1578758883401" />
+    <state x="653" y="210" width="671" height="685" key="#UsersGT50Consumer" timestamp="1578759565544">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="653" y="210" width="671" height="685" key="#UsersGT50Consumer/67.27.1853.1053@67.27.1853.1053" timestamp="1578759565544" />
+    <state x="653" y="210" width="671" height="685" key="#UsersLT50Consumer" timestamp="1578759668186">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="653" y="210" width="671" height="685" key="#UsersLT50Consumer/67.27.1853.1053@67.27.1853.1053" timestamp="1578759668186" />
+    <state x="801" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1578758269227">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="801" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1578758269227" />
+    <state width="1807" height="270" key="GridCell.Tab.0.bottom" timestamp="1578760484297">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="270" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578760484297" />
+    <state width="1807" height="270" key="GridCell.Tab.0.center" timestamp="1578760484297">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="270" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578760484297" />
+    <state width="1807" height="270" key="GridCell.Tab.0.left" timestamp="1578760484296">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="270" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578760484296" />
+    <state width="1807" height="270" key="GridCell.Tab.0.right" timestamp="1578760484297">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="270" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578760484297" />
+    <state x="526" y="210" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1578758233702">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="526" y="210" width="924" height="684" key="Maven.ArtifactSearchDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578758233702" />
   </component>
 </project>

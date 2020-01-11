@@ -13,17 +13,12 @@ services:
       - 9581-9585:9581-9585       # JMX Ports
       - 9092:9092                 # Kafka Broker
 
-  elasticsearch:
-    image: itzg/elasticsearch:2.4.3
-    environment:
-      PLUGINS: appbaseio/dejavu
-    ports:
-      - 9200:9200
-
   mongo:
     image: mongo
     ports:
       - 27017:27017
+    volumes:
+      - ./data/mongo:/data/db
 
   mongoexpress:
     image: mongo-express
