@@ -12,8 +12,7 @@ public interface AppProperties {
     final String OFFSET_RESET = "earliest";
 
     // Kafka Stream settings
-    final String APP_ID_GT50 = "app-kafka-gt50";
-    final String APP_ID_LT50 = "app-kafka-lt50";
+    final String APP_ID = "app-kafka";
     final String AGE_GREATHER_THAN_50_TOPIC = "users-gt-50";
     final String AGE_LESS_THAN_50_TOPIC = "users-lt-50";
 

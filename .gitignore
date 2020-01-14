@@ -1,1 +1,4 @@
 /src/main/data/mongo/
+/src/main/kafka/data/broker1/
+/src/main/kafka/data/broker2/
+/src/main/kafka/data/broker3/

@@ -61,3 +61,17 @@ services:
       - ./kafka/data/broker3:/var/lib/kafka/data
     depends_on:
       - zoo1
+
+  mongo:
+    image: mongo
+    ports:
+      - 27017:27017
+    volumes:
+      - ./data/mongo:/data/db
+
+  mongoexpress:
+    image: mongo-express
+    links:
+      - mongo
+    ports:
+      - 8081:8081
